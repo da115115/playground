@@ -1,0 +1,14 @@
+
+# Those programs use the ICU library (http://site.icu-project.org).
+# In order to compile, the ICU library packages have to be installed.
+# For instance, on Fedora/RedHat/CentOS, the libicu-devel package
+# has to be installed.
+
+# Then, the following command will compile and run the first program:
+`icu-config --cxx --cxxflags --cppflags --ldflags` -o icutranslit_simple \
+ icutranslit_simple.cpp icutranslit_util.hpp icutranslit_util.cpp
+./icutranslit_simple
+
+# It should produce the following output:
+Original version (UTF8): 'À côté de chez vous'; normalized version without accents: 'A cote de chez vous'
+
