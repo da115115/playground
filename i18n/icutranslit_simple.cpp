@@ -36,9 +36,9 @@ int main() {
 	lNormaliser->transliterate (lNormalisedString);
 
 	std::cout << "Original version (UTF8): '"
-			<< toUTF8String (lString)
+			<< uprintf (lString)
 			 << "'; normalized version without accents: '"
-			<< toUTF8String (lNormalisedString) << "'" << std::endl;
+			<< uprintf (lNormalisedString) << "'" << std::endl;
                                            
 	return 0;
 }
