@@ -1,9 +1,14 @@
  
-That directory structure is devoted to the study of the Programming Scala book,
-by Dean Wampler and Alex Payne. Copyright 2009 Dean Wampler and Alex Payne,
-ISBN: 978-0-596-15595-7.
+That directory structure is devoted to the study of the Programming Scala books,
+by Dean Wampler and Alex Payne.
 
+* First edition, copyright 2009 Dean Wampler and Alex Payne, ISBN: 978-0-596-15595-7.
 The source code for the examples can be downlowded from the O'Reilly Web site:
 wget http://examples.oreilly.com/9780596155964/programming-scala-1st-edition-code-examples.tgz
 tar zxf programming-scala-1st-edition-code-examples.tgz && rm -f programming-scala-1st-edition-code-examples.tgz
 
+* Second edition.
+The source code can be found on GitHub (http://github.com/deanwampler/prog-scala-2nd-ed-code-examples):
+$ git clone git@github.com:deanwampler/prog-scala-2nd-ed-code-examples.git
+$ cd prog-scala-2nd-ed-code-examples.git
+$ sbt test
