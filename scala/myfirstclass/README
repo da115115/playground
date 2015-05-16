@@ -1,0 +1,7 @@
+# Compile
+scalac MyFirstClass.scala
+# Run
+scala MyFirstClass
+# Interpret directly
+scala MyFirstClass.scala
+

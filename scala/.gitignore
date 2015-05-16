@@ -1,3 +1,4 @@
 abrt_checker_*.log
 project/
 target/
+*.class
